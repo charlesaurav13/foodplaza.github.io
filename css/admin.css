@@ -1,0 +1,176 @@
+/*
+    Author: Saurav;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-40{
+    width: 40%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-primary:hover{
+    background-color:#3742fa ;
+    color: black;
+}
+.btn-primary:active {
+    background-color:#3742fa;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    cursor: pointer;
+    margin-right: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-secondary:hover{
+    background-color:#2ed573 ;
+    color: black;
+}
+.btn-secondary:active {
+    background-color:#2ed573;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn-danger{
+    background-color: #e55039;
+    padding: 1%;
+    cursor: pointer;
+    margin-right: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-danger:hover{
+    background-color:#b71540 ;
+    color: black;
+}
+.btn-danger:active {
+    background-color:#b71540;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  /* Button for animated submit starts*/
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41;
+}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  /* Button for animated submit ends here */
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid gray;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+    
+}
+.menu ul li a:hover{
+  padding: 8px 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 9px #999;
+  color: #2f3542;
+    
+}
+/* CSS for main content */
+.main-content{
+    background-color: #dfe4ea;
+    padding: 4% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/* CSS for Footer */
+.footer{
+    background-color:#ff4757;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: bold;
+}
